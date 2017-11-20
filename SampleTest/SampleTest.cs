@@ -269,9 +269,9 @@ namespace SampleTest
 		{
 			Console.WriteLine ("Linear regression");
 			// Parameters
-			//var learning_rate = 0.01;
-			//var training_epochs = 1000;
-			//var display_step = 50;
+			var learning_rate = 0.01;
+			var training_epochs = 1000;
+			var display_step = 50;
 
 			// Training data
 			var train_x = new double [] {
