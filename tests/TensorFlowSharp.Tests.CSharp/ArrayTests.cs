@@ -9,8 +9,7 @@ namespace TensorFlowSharp.Tests.CSharp
 {
     public class ArrayTests
     {
-
-        private static IEnumerable<object[]> stackData()
+	    public static IEnumerable<object[]> stackData()
         {
             // Example from https://www.tensorflow.org/api_docs/python/tf/stack
 
@@ -54,10 +53,7 @@ namespace TensorFlowSharp.Tests.CSharp
         }
 
 
-
-
-
-        private static IEnumerable<object[]> rangeData()
+	    public static IEnumerable<object[]> rangeData()
         {
             double[] x = { 1, 4 };
             double[] y = { 2, 5 };
